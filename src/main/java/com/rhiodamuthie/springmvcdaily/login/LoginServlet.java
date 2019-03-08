@@ -28,7 +28,8 @@ import java.io.IOException;
 //2. @WebServlet(urlPatterns = "/login.do")
 //3. doGet(HttpServletRequest request, HttpServletResponse response)
 //4. How is the response created?
-@WebServlet(urlPatterns = "/login.do")
+//@WebServlet(urlPatterns = "/login.do")
+@WebServlet("/login.do")
 public class LoginServlet extends HttpServlet {
 
     @Override
